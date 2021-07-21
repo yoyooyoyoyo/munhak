@@ -1,6 +1,7 @@
 $(function(){
 //만약 접속한 기기의 가로크기가 480이상이면 menu영역 보이고, 480이하이면 menu영역 숨김
 var winWidth=$(window).width();
+$('section').css('height',winHeight);
 if(winWidth>480){
     $("header").show();
     

@@ -72,7 +72,7 @@ section {width: 100%;}
 
 
 /*3단계로 나뉘어져있는 부분*/
-section .community {width: 100%; height: 100vh;}
+section .community {width: 100%;}
 section .community_wrap { display: flex; justify-content: space-between; position: relative;}
 section .community_wrap .writer {text-align: center; width:33.33333333333333%; height: 100vh;}
 section .community_wrap .writer {background-image: url(../img/community-1.png); background-repeat: no-repeat; background-size: cover;}

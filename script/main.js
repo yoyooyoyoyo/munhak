@@ -1,13 +1,16 @@
 $(function(){
+
 //만약 접속한 기기의 가로크기가 480이상이면 menu영역 보이고, 480이하이면 menu영역 숨김
 var winWidth=$(window).width();
-$('section').css('height',winHeight);
+var winHeight=$(window).height();
+
+
 if(winWidth>480){
     $("header").show();
     
 }else{
     $("header nav").hide();
-    
+    $('section').css('height',winHeight);
 }
 $(".mo_ham_sub").hide();
 $("#ham_sub").hide();

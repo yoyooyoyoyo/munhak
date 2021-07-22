@@ -10,7 +10,7 @@ if(winWidth>480){
     
 }else{
     $("header nav").hide();
-    $('section').css('height',winHeight);
+    $('.section').css('height',winHeight);
 }
 $(".mo_ham_sub").hide();
 $("#ham_sub").hide();
